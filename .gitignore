@@ -1,18 +1,57 @@
+# Android Studio / IntelliJ IDEA
+.idea/
 *.iml
-.gradle
-.kotlin
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+*.iws
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/runConfigurations.xml
+.idea/vcs.xml
+.idea/migrations.xml
+.idea/planningMode.xml
+.idea/markdown.xml
+/shelf/
+
+# Gradle
+.gradle/
+build/
+app/build/
+.kotlin/
+
+# Secrets and Environment
 .env
-debug.keystore
+local.properties
+*.jks
+*.keystore
+!debug.keystore
+
+# Android Captures
+/captures
+
+# External Native Build
+.externalNativeBuild/
+.cxx/
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Project Specific
+.agents/
+metadata.json
+*.log
+
+# Built-in Google AI Studio files
+PLAN.md
+bugs.md
